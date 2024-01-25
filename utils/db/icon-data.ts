@@ -1,0 +1,16 @@
+export const ICON_DATA = [
+    { icon: "/icon/vector-main.png", name: "logo" },
+    { icon: "/icon/vector-box.png", name: "box" },
+    { icon: "/icon/vector-signal.png", name: "signal" },
+    { icon: "/icon/vector-people.png", name: "people" },
+    { icon: "/icon/vector-setting.png", name: "setting" },
+    { icon: "/icon/vector-pyramid.png", name: "pyramid" },
+    { icon: "/icon/vector-light.png", name: "light" },
+    { icon: "/icon/vector-moon.png", name: "moon" },
+    { icon: "/icon/vector-arrow.png", name: "moveOut" },
+    { icon: "/icon/vector-setting-1.png", name: "setting2" },
+    { icon: "/icon/vector-arrow-left.png", name: "move" },
+    { icon: "/icon/vector-calendar.png", name: "calendar" },
+    { icon: "/icon/vector-notify.png", name: "notify" },
+    { icon: "/icon/vector-arrow-down.png", name: "arr-down" },
+] as const;
