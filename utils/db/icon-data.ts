@@ -1,16 +1,25 @@
+import Arrorw from "./icon/Arrorw";
+import ArrowL from "./icon/ArrowL";
+import Box from "./icon/Box";
+import Contact from "./icon/Contact";
+import Light from "./icon/Light";
+import Logo from "./icon/Logo";
+import Moon from "./icon/Moon";
+import Pyramid from "./icon/Pyramid";
+import Setting from "./icon/Setting";
+import Signal from "./icon/Signal";
+
 export const ICON_DATA = [
-    { icon: "/icon/vector-main.png", name: "logo" },
-    { icon: "/icon/vector-box.png", name: "box" },
-    { icon: "/icon/vector-signal.png", name: "signal" },
-    { icon: "/icon/vector-people.png", name: "people" },
-    { icon: "/icon/vector-setting.png", name: "setting" },
-    { icon: "/icon/vector-pyramid.png", name: "pyramid" },
-    { icon: "/icon/vector-light.png", name: "light" },
-    { icon: "/icon/vector-moon.png", name: "moon" },
-    { icon: "/icon/vector-arrow.png", name: "moveOut" },
-    { icon: "/icon/vector-setting-1.png", name: "setting2" },
-    { icon: "/icon/vector-arrow-left.png", name: "move" },
-    { icon: "/icon/vector-calendar.png", name: "calendar" },
-    { icon: "/icon/vector-notify.png", name: "notify" },
-    { icon: "/icon/vector-arrow-down.png", name: "arr-down" },
+    { icon: Logo, name: "logo" },
+    { icon: Box, name: "box" },
+    { icon: Signal, name: "signal" },
+    { icon: Contact, name: "people" },
+    { icon: Pyramid, name: "pyramid" },
+    { icon: Setting, name: "setting" },
+    { icon: Light, name: "light" },
+    { icon: Moon, name: "moon" },
+    { icon: ArrowL, name: "move" },
+    { icon: Setting, name: "set" },
+    { icon: Arrorw, name: "back" },
+
 ] as const;
