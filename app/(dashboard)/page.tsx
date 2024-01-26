@@ -1,4 +1,4 @@
-import DashBoard from "@/components/dashboard/DashBoard";
+import Navbar from "@/components/nav-bar/NavBar";
 import Sidebar from "@/components/side-bar/Sidebar";
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ export default function Home() {
        <Sidebar/>
         </div>
         <div className="flex-1">
-          <div className="sticky top-0 max-w-[1360px] p-5 shadow shadow-black"><DashBoard/></div>
+          <div className="sticky top-0 max-w-[1360px]"><Navbar/></div>
           <div>content</div>
         </div>
       </div>
