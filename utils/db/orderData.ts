@@ -1,0 +1,42 @@
+export const ORDER_DATA = [
+  {
+    id: "geegpaykkdkdjdggtMarcus",
+    icon: "/images/order/Frame.png",
+    name: "Marcus Bergson",
+    date: "Nov 15, 2023",
+    amount: 80000,
+    Status: true,
+  },
+  {
+    id: "geepayHHsshshVaccaro",
+    icon: "/images/order/Frame-1.png",
+    name: "Jaydon Vaccaro",
+    date: "Nov 15, 2023",
+    amount: 150000,
+    Status: false,
+  },
+  {
+    id: "geegpayuidjjd76Coreyscs",
+    icon: "/images/order/Frame-2.png",
+    name: "Corey Schleifer",
+    date: "Nov 15, 2023",
+    amount: 87000,
+    Status: true,
+  },
+  {
+    id: "geegepayCooperPgsg5",
+    icon: "/images/order/Frame-3.png",
+    name: "Cooper Press",
+    date: "Nov 15, 2023",
+    amount: 100000,
+    Status: false,
+  },
+  {
+    id: "geepayhdgdgddLubin33",
+    icon: "/images/order/Frame-4.png",
+    name: "Phillip Lubin",
+    date: "Nov 15, 2023",
+    amount: 78000,
+    Status: true,
+  },
+] as const;
