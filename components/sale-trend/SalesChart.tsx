@@ -7,11 +7,11 @@ const SalesChart = () => {
         return date.toLocaleString('default', { month: 'short' });
     });
     
-    const data = [5, 13, 3, 25, 8, 70, 10, 40, 50, 6, 45, 55]
+    const data = [30, 43, 3, 25, 50, 70, 10, 40, 50, 16, 48, 55]
     
   return (
     <div>
-        <section className='relative'>
+        <section className='relative h-auto'>
             <div className='space-y-3 my-3'>
                 {frequency.map((item)=>(
                 <div  key={`${item}chart`} className='flex gap-5 justify-between'>
@@ -27,11 +27,11 @@ const SalesChart = () => {
             </div>
             ))}
            </div>
-           <div className='absolute inset-y-0 right-0 bottom-6 top-90 flex gap-3 px-2 text-sm justify-between w-[90%] ml-auto'>
+           <div className='absolute inset-y-0 items-end right-0 bottom-5 pb-6 h-full  flex gap-3 px-2 text-sm justify-between w-[90%] ml-auto'>
            {data.map((item) => (
                 <div key={`${item}charBar`} 
-                style={{height:`${item}%`,  }}
-                className='w-8 rounded-t-full bg-red-500'/>
+                style={{height:`${item}%`}}
+                className={ `${item >= 70 ? "grad" : "bg-[#34CAA51A]"} w-8 rounded-t-full  origin-bottom'`}/>
             ))}
            </div>
         </section>

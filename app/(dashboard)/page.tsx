@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <main className="flex text-black min-h-screen flex-col p-0 m-0 relative">
       <div className="flex h-full min-h-screen">
-        <div className="sticky top-0 left-0 h-full flex max-w-20 w-full  shrink-0 flex-col ">
+        <div className="sticky top-0 left-0 h-full flex max-w-20 w-full  shrink-0 flex-col">
        <Sidebar/>
         </div>
         <div className="flex-1">
-          <div className="sticky top-0 max-w-[1360px]"><Navbar/></div>
+          <div className="sticky top-0 max-w-[1360px] z-40 bg-white"><Navbar/></div>
           <div className="space-x-4 p-3 grid grid-cols-3 space-y-3">
             <Trend/>
             <div className="grid grid-cols-2 gap-x-2">

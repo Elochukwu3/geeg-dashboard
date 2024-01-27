@@ -8,7 +8,7 @@ import SearchSvg from "./Search";
 function NavBar() {
   return (
     <div>
-      <div className="block bg-[#FAFAFA] border-[0.769px] border-[#DADDDD]">
+      <div className="blockbg-[#FAFAFA] border-[0.769px] border-[#DADDDD]">
         <nav className="flex py-4 items-center gap-5 px-2">
         <div className="max-w-[740px] flex justify-between items-center flex-1">
         <h1 className="text-xl font-jarkata font-bold text-[#26282C]">
