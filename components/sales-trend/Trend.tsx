@@ -1,5 +1,6 @@
 import React from 'react'
 import { TreandWrapper, Trendinner  } from '../style'
+import SalesChart from '../sale-trend/SalesChart'
 const Trend = () => {
   return (
     <TreandWrapper>
@@ -15,6 +16,7 @@ const Trend = () => {
             </div>
             </div>
         </Trendinner>
+        <SalesChart/>
     </TreandWrapper>
   )
 }
