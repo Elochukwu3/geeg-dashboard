@@ -27,11 +27,11 @@ const SalesChart = () => {
             </div>
             ))}
            </div>
-           <div className='absolute inset-y-0 items-end right-0 bottom-5 pb-6 h-full  flex gap-3 px-2 text-sm justify-between w-[90%] ml-auto'>
+           <div className='absolute inset-y-0 items-end right-0 bottom-5 max-md:gap-2 pb-6 h-full  flex gap-3 px-2 text-sm justify-between w-[90%] ml-auto'>
            {data.map((item) => (
                 <div key={`${item}charBar`} 
                 style={{height:`${item}%`}}
-                className={ `${item >= 70 ? "grad" : "bg-[#34CAA51A]"} w-8 rounded-t-full  origin-bottom'`}/>
+                className={ `${item >= 70 ? "grad" : "bg-[#34CAA51A]"} w-8 max-md:w-5 rounded-t-full  origin-bottom'`}/>
             ))}
            </div>
         </section>
