@@ -3,7 +3,7 @@ import { formatNumberInput } from '@/utils/helper/numberConvert';
 
 const Platform = () => {
   return (
-    <section className="md:w-11/12 mx-auto bg-[#FFF] rounded-[8px] p-2">
+    <section className="md:w-11/12 max-lg:w-9/12 max-md:w-10/12 mx-auto bg-[#FFF] rounded-[8px] p-2">
       <div className="flex justify-between items-center w-full">
         <span className="text-lg font-normal text-[#26282C]">Top Platform</span>
         <span className="text-[#34CAA5] pr-3">See All</span>
