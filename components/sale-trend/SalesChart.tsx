@@ -7,7 +7,7 @@ const SalesChart = () => {
         return date.toLocaleString('default', { month: 'short' });
     });
     
-    const data = [30, 43, 3, 25, 50, 70, 10, 40, 50, 16, 48, 55]
+    const data = [30, 43, 3, 25, 51, 70, 10, 40, 50, 16, 48, 55]
     
   return (
     <div>
